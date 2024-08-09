@@ -1,11 +1,79 @@
-# Ignore bin directory
-bin/
+# Compiled class file
+*.class
 
-# Ignore Eclipse settings
-.settings/
-.classpath
-.project
+# Log file
+*.log
 
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse/IntelliJ IDEA project files
+/.classpath
+/.project
+/.settings/
+/.idea/
+/*.iml
+/out/
+
+# NetBeans project files
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle files
+.gradle/
+/build/
+
+# Java runtime generated files
+*.log
+*.class
+*.jar
+
+# Directory-based project formats
+/.metadata/
+/bin/
+/tmp/
+/temp/
+/target/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.DS_Store
+
+# Generated files
+*.generated
+
+# File-based project formats
+*.ipr
+*.iws
+*.dstore
+*.orig
